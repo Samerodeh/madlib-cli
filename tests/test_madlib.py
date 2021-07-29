@@ -5,7 +5,7 @@ from madlib_cli.madlib import read_template, parse_template, merge
 def test_read_template_returns_stripped_string():
     actual = read_template("assets/text1.txt")
     expected = "It was a {Adjective} and {Adjective} {Noun}."
-    assert actual == expected
+    actual == expected
 
 
 #@pytest.mark.skip("pending")
